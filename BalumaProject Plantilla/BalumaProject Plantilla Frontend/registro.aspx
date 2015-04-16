@@ -11,7 +11,7 @@
 	<!-- start registration -->
 	<div class="registration">
 		
-		<script>
+		<script type="text/javascript">
 		    (function () {
 
 		        // Create input element for testing
