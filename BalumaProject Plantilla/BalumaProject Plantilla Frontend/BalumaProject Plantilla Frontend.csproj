@@ -52,6 +52,7 @@
   <ItemGroup>
     <Content Include="admin\editar_perfil.aspx" />
     <Content Include="admin\indiceAdmin.aspx" />
+    <Content Include="admin\LoginAdministrador.aspx" />
     <Content Include="cliente\cliente.aspx" />
     <Content Include="cliente\editar_cliente.aspx" />
     <Content Include="Content\css\bootstrap-theme.css" />
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="admin\indiceAdmin.aspx.designer.cs">
       <DependentUpon>indiceAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\LoginAdministrador.aspx.cs">
+      <DependentUpon>LoginAdministrador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\LoginAdministrador.aspx.designer.cs">
+      <DependentUpon>LoginAdministrador.aspx</DependentUpon>
     </Compile>
     <Compile Include="cliente\cliente.aspx.cs">
       <DependentUpon>cliente.aspx</DependentUpon>

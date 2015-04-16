@@ -10,3 +10,7 @@ D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-ite
 D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.pdb
 D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.dll
 D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.pdb
+C:\Users\manu\programacion\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.dll
+C:\Users\manu\programacion\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.pdb
+C:\Users\manu\programacion\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.dll
+C:\Users\manu\programacion\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.pdb
