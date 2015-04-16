@@ -179,7 +179,7 @@ h4.style{
 .registration_form input[type="text"],.registration_form input[type="email"],.registration_form input[type="tel"],.registration_form input[type="password"]{
 	padding: 10px;
 	display: block;
-	width: 95.333333%;
+	width: 72%;
 	outline: none;
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 0.8925em;

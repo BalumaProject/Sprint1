@@ -2,41 +2,75 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<form id="Form1"  runat = "server">
 <div class="main_bg">
 <div class="wrap">
 <div class="main">
-
 	<div class="login_left">
 		<h3>login</h3>
-		<p>Si ya tienes una cuenta con nosotros, loguéate y disfruta de nuestra gran variedad de productos para barcos</p>
+		<p>Si ya tienes una cuenta con nosotros, loguéate.</p>
 	<!-- start registration -->
 	<div class="registration">
 		
-		
+		<script type="text/javascript">
+		    (function () {
 
+		        // Create input element for testing
+		        var inputs = document.createElement('input');
+
+		        // Create the supports object
+		        var supports = {};
+
+		        supports.autofocus = 'autofocus' in inputs;
+		        supports.required = 'required' in inputs;
+		        supports.placeholder = 'placeholder' in inputs;
+
+		        // Fallback for autofocus attribute
+		        if (!supports.autofocus) {
+
+		        }
+
+		        // Fallback for required attribute
+		        if (!supports.required) {
+
+		        }
+
+		        // Fallback for placeholder attribute
+		        if (!supports.placeholder) {
+
+		        }
+
+		        // Change text inside send button on submit
+		        var send = document.getElementById('register-submit');
+		        if (send) {
+		            send.onclick = function () {
+		                this.innerHTML = '...Sending';
+		            }
+		        }
+
+		    })();
+		</script>
 	<div class="registration_left">
 		
 		 <div class="registration_form">
 		 <!-- Form -->
-			
+			<form id="registration_form" action="contact.php" method="post">
 				<div>
 					<label>
-						<asp:TextBox type="email" tabindex="3" required="" placeholder = "nombre de usuario o email" runat="server" />
+						<input placeholder="usuario" type="email" tabindex="3" required="">
 					</label>
 				</div>
 				<div>
 					<label>
-						<asp:TextBox  type="password" tabindex="4" placeholder="contraseña" runat = "server" />
+						<input placeholder="contraseña" type="password" tabindex="4" required="">
 					</label>
 				</div>						
 				<div>
-					<asp:Button OnClick = "submit" type="submit" text="¡Entra!"  runat = "server" />
+					<input type="submit" value="¡Entra!" id="register-submit">
 				</div>
 				<div class="forget">
 					<a href="#">¿No recuerdas tu contraseña?</a>
 				</div>
-			
+			</form>
 			<!-- /Form -->
 		</div>
 	</div>
@@ -50,92 +84,56 @@
 		
 		 <div class="registration_form">
 		 <!-- Form -->
-			
+			<form id="registration_form" action="contact.php" method="post">
 				<div>
 					<label>
-						<asp:TextBox ID = "nombre" type="text" tabindex="1" placeholder="Nombre:" runat = "server"  />
+						<input placeholder="Nombre:" type="text" tabindex="1" required="" autofocus="">
 					</label>
 				</div>
 				<div>
 					<label>
-						<asp:TextBox ID = "papellido" type="text" tabindex="2" placeholder="Primer apellido:" runat = "server" />
+						<input placeholder="Primer apellido:" type="text" tabindex="2" required="" autofocus="">
 					</label>
 				</div>
 
 				<div>
 					<label>
-						<asp:TextBox ID = "sapellido" placeholder="Segundo apellido:" type="text" tabindex="3" runat="server" />
+						<input placeholder="Segundo apellido:" type="text" tabindex="3" required="" autofocus="">
 					</label>
 				</div>
 
 				
 				<div>
 					<label>
-						<asp:TextBox ID = "email" placeholder="Email:" type="email" tabindex="4" runat="server" />
-					</label>
-				</div>
-
-                	
-				<div>
-					<label>
-						<asp:TextBox ID = "nif" placeholder="NIF:" type="text" tabindex="5" runat="server" />
-					</label>
-				</div>
-
-                	
-				<div>
-					<label>
-						<asp:TextBox ID = "local" placeholder="localidad:" type="text" tabindex="6" runat="server" />
-					</label>
-				</div>
-
-                <div>
-					<label>
-						<asp:TextBox ID = "cp" placeholder="C.P:" type="text" tabindex="7" runat="server" />
-					</label>
-				</div>
-                	
-				<div>
-					<label>
-						<asp:TextBox ID = "telf" placeholder="número de teléfono:" type="text" tabindex="8" runat="server" />
-					</label>
-				</div>
-
-                	
-				<div>
-					<label>
-						<asp:TextBox ID = "cuenta" placeholder="cuenta bancaria:" type="text" tabindex="9" runat="server" />
+						<input placeholder="Email:" type="email" tabindex="4" required="">
 					</label>
 				</div>
 
 				<div>
 					<label>
-						<asp:TextBox ID = "pass" placeholder="contraseña" type="password" tabindex="10" runat="server" />
+						<input placeholder="contraseña" type="password" tabindex="5" required="">
 					</label>
 				</div>						
 				<div>
 					<label>
-						<asp:TextBox placeholder="repite la contraseña" type="password" tabindex="11" runat="server" />
+						<input placeholder="repite la contraseña" type="password" tabindex="5" required="">
 					</label>
 				</div>	
 				<div>
-					<asp:Button OnClick = "register_submit" type="submit" text="Crea tu cuenta" runat="server" />
+					<input type="submit" value="Crea tu cuenta" id="register-submit">
 				</div>
 				<div class="sky_form">
-					<label class="checkbox"><asp:CheckBox name="checkbox" runat="server"/><i>Estoy de acuerdo con los <a class="terms" href="#"> términos de servicio</a> </i></label>
+					<label class="checkbox"><input type="checkbox" name="checkbox"><i>Estoy de acuerdo con los <a class="terms" href="#"> términos de servicio</a> </i></label>
 				</div>
-			
+			</form>
 			<!-- /Form -->
 		</div>
 	</div>
 	</div>
-
 	<div class="clear"></div>
-    
 </div>
 </div>
 </div>
- </form>
 <!-- start footer -->
 <div class="footer_bg">
 <div class="wrap">
