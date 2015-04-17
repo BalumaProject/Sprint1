@@ -26,3 +26,15 @@ C:\Users\Javier\Desktop\BalumaProject Plantilla\BalumaProject Plantilla Frontend
 C:\Users\Javier\Desktop\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.csprojResolveAssemblyReference.cache
 C:\Users\Javier\Desktop\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.dll
 C:\Users\Javier\Desktop\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.pdb
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\hibernate.cfg.xml
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.pdb
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProjectGenNHibernate.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\NHibernate.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\Iesi.Collections.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\Antlr3.Runtime.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\log4net.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProjectGenNHibernate.pdb
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.pdb

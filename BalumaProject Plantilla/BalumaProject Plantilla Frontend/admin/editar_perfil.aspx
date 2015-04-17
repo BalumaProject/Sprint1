@@ -4,87 +4,47 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="headAdmin" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <script>
-        (function () {
-
-            // Create input element for testing
-            var inputs = document.createElement('input');
-
-            // Create the supports object
-            var supports = {};
-
-            supports.autofocus = 'autofocus' in inputs;
-            supports.required = 'required' in inputs;
-            supports.placeholder = 'placeholder' in inputs;
-
-            // Fallback for autofocus attribute
-            if (!supports.autofocus) {
-
-            }
-
-            // Fallback for required attribute
-            if (!supports.required) {
-
-            }
-
-            // Fallback for placeholder attribute
-            if (!supports.placeholder) {
-
-            }
-
-            // Change text inside send button on submit
-            var send = document.getElementById('register-submit');
-            if (send) {
-                send.onclick = function () {
-                    this.innerHTML = '...Sending';
-                }
-            }
-
-        })();
-		</script>
 
     <div class="registration_left">
         <div class="registration_form">
 		 <!-- Form -->
-			<form id="registration_form" action="contact.php" method="post">
 				<div>
 					<label>
-						<input placeholder="Nombre:" type="text" tabindex="1" required="" autofocus="">
+						<asp:TextBox ID = "nombre" type="text" tabindex="1" placeholder="Nombre:" runat = "server"  />
 					</label>
 				</div>
 				<div>
 					<label>
-						<input placeholder="Primer apellido:" type="text" tabindex="2" required="" autofocus="">
+						<asp:TextBox ID = "prapellido" type="text" tabindex="2" placeholder="Primer apellido:" runat = "server" />
 					</label>
 				</div>
 
 				<div>
 					<label>
-						<input placeholder="Segundo apellido:" type="text" tabindex="3" required="" autofocus="">
+						<asp:TextBox ID = "sgapellido" placeholder="Segundo apellido:" type="text" tabindex="3" runat="server" />
 					</label>
 				</div>
 
 				
 				<div>
 					<label>
-						<input placeholder="Email:" type="email" tabindex="4" required="">
+						<asp:TextBox ID = "email" placeholder="Email:" type="email" tabindex="4" runat="server" />
 					</label>
 				</div>
 
 				<div>
 					<label>
-						<input placeholder="contraseña" type="password" tabindex="5" required="">
+						<asp:TextBox ID = "pass" placeholder="Contraseña:" type="password" tabindex="10" runat="server" />
 					</label>
 				</div>						
 				<div>
 					<label>
-						<input placeholder="repite la contraseña" type="password" tabindex="5" required="">
+						<asp:TextBox ID="TextBox1" placeholder="Repite la contraseña:" type="password" tabindex="11" runat="server" />
 					</label>
 				</div>	
 				<div>
-					<input type="submit" value="Actualiza tus datos" id="register-submit">
+					<asp:Button ID="Button1" OnClick = "submit" type="submit" text="Modificar"  runat = "server" />
 				</div>
-			</form>
 			<!-- /Form -->
 		</div>
     </div>
