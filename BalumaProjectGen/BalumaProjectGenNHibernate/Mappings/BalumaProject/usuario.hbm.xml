@@ -14,7 +14,7 @@
 						<column name="[password]"  not-null="true"/>
 					</property>
 					<property name="Username" type="string"> 
-						<column name="[username]"  not-null="true"/>
+						<column name="[username]"  unique="true" not-null="true"/>
 					</property>
 			
 			
@@ -37,5 +37,7 @@
 		  </class>
 		  
 		  <query name="UsuarioENReadAllHQL">from UsuarioEN</query>
+		  <query name="UsuarioENleerPorNombreClienteHQL"><![CDATA[FROM UsuarioEN us where us.username = :p_username]]></query>
+		  <query name="UsuarioENleerPorNombreAdministradorHQL"><![CDATA[SELECT * FROM UsuarioEN us where us.username = :p_username]]></query>
 		</hibernate-mapping>
 	

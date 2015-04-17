@@ -61,6 +61,11 @@ public int CrearCarrito (CarritoEN carrito)
 
                         carrito.Previsualizar.Carrito = carrito;
                 }
+                if (carrito.Cliente != null) {
+                        carrito.Cliente = (BalumaProjectGenNHibernate.EN.BalumaProject.ClienteEN)session.Load (typeof(BalumaProjectGenNHibernate.EN.BalumaProject.ClienteEN), carrito.Cliente.NIF);
+
+                        carrito.Cliente.Carrito = carrito;
+                }
 
                 session.Save (carrito);
                 SessionCommit ();

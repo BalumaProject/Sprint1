@@ -32,7 +32,7 @@ public IClienteCAD get_IClienteCAD ()
         return this._IClienteCAD;
 }
 
-public string CrearCliente (string p_nombre, string p_apellidos, string p_password, string p_username, string p_NIF, string p_localidad, string p_codigoPostal, string p_numCuentaBancaria, string p_telefono, BalumaProjectGenNHibernate.EN.BalumaProject.CarritoEN p_carrito, BalumaProjectGenNHibernate.EN.BalumaProject.PedidoEN p_pedido)
+public string CrearCliente (string p_nombre, string p_apellidos, string p_password, string p_username, string p_NIF, string p_localidad, string p_codigoPostal, string p_numCuentaBancaria, string p_telefono)
 {
         ClienteEN clienteEN = null;
         string oid;
@@ -56,10 +56,6 @@ public string CrearCliente (string p_nombre, string p_apellidos, string p_passwo
         clienteEN.NumCuentaBancaria = p_numCuentaBancaria;
 
         clienteEN.Telefono = p_telefono;
-
-        clienteEN.Carrito = p_carrito;
-
-        clienteEN.Pedido = p_pedido;
 
         //Call to ClienteCAD
 

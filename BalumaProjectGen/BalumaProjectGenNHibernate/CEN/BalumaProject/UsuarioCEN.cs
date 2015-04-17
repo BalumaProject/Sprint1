@@ -70,5 +70,14 @@ public void ModificarUsuario (string p_Usuario_OID, string p_nombre, string p_ap
 
         _IUsuarioCAD.ModificarUsuario (usuarioEN);
 }
+
+public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreCliente (string p_username)
+{
+        return _IUsuarioCAD.LeerPorNombreCliente (p_username);
+}
+public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreAdministrador (string p_username)
+{
+        return _IUsuarioCAD.LeerPorNombreAdministrador (p_username);
+}
 }
 }

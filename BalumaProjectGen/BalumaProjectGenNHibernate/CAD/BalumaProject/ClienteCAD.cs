@@ -56,14 +56,6 @@ public string CrearCliente (ClienteEN cliente)
         try
         {
                 SessionInitializeTransaction ();
-                if (cliente.Carrito != null) {
-                        cliente.Carrito.Cliente = cliente;
-                        session.Save (cliente.Carrito);
-                }
-                if (cliente.Pedido != null) {
-                        cliente.Pedido.Cliente.Add (cliente);
-                        session.Save (cliente.Pedido);
-                }
 
                 session.Save (cliente);
                 SessionCommit ();

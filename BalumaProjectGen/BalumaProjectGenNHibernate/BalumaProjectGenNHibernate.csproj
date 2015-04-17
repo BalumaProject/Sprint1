@@ -107,6 +107,7 @@
 	<Compile Include="CAD\BalumaProject\IUsuarioCAD.cs" />
 	<Compile Include="CAD\BalumaProject\UsuarioCAD.cs" />
 			<Compile Include="CEN\BalumaProject\UsuarioCEN_Login.cs" />
+			<Compile Include="CEN\BalumaProject\UsuarioCEN_GetNIF.cs" />
 	<Compile Include="EN\BalumaProject\ValidarEN.cs" />
 	<Compile Include="CEN\BalumaProject\ValidarCEN.cs" />
 	<Compile Include="CAD\BalumaProject\IValidarCAD.cs" />
