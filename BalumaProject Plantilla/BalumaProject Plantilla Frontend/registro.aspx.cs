@@ -23,7 +23,20 @@ namespace BalumaProject_Plantilla_Frontend
         {
             //necesario un leer por email o leer por nombre
 
-            cliente.get_IClienteCAD().ReadOIDDefault(nif.Text);
+            UsuarioCEN usu = new UsuarioCEN();
+            UsuarioEN usuEN = new UsuarioEN();
+            usuEN = usu.LeerPorNombreCliente(username.Text);
+
+            if (usuEN.Password == password.Text)
+            {
+                ClienteEN cli = new ClienteEN();
+                cli = (ClienteEN)usuEN;
+                //Redirigir la página a cliente
+            }
+            else
+            {
+                //Mostrar mensaje de error
+            }
 
             //si es válido, se carga la vista de cliente
 
@@ -43,7 +56,7 @@ namespace BalumaProject_Plantilla_Frontend
             String cuentaBancaria = cuenta.Text;
 
 
-            cliente.CrearCliente(nom, apellidos, password, nom, NIF, localidad, "", cuentaBancaria, numtelf, null, null);
+            cliente.CrearCliente(nom, apellidos, password, nom, NIF, localidad, "", cuentaBancaria, numtelf);
         }
 
     }

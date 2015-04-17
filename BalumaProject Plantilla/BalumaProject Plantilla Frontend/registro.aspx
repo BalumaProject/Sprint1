@@ -22,12 +22,12 @@
 			
 				<div>
 					<label>
-						<asp:TextBox type="email" tabindex="3" required="" placeholder = "nombre de usuario o email" runat="server" />
+						<asp:TextBox ID = "username" type="text" tabindex="3" required="" placeholder = "nombre de usuario" runat="server" />
 					</label>
 				</div>
 				<div>
 					<label>
-						<asp:TextBox  type="password" tabindex="4" placeholder="contraseña" runat = "server" />
+						<asp:TextBox  ID = "password" type="password" tabindex="4" placeholder="contraseña" runat = "server" />
 					</label>
 				</div>						
 				<div>
