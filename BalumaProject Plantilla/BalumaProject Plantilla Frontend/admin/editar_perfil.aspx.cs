@@ -26,8 +26,6 @@ namespace BalumaProject_Plantilla_Frontend.admin
             String segundo_apellido = sgapellido.Text;
             String apellidos = primer_apellido + " " + segundo_apellido;
             String password = pass.Text;
-
-            admin.ModificarUsuario(null, nom, apellidos, password, p_username);
         }
     }
 }
