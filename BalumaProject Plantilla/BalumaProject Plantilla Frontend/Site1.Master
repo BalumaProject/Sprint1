@@ -52,7 +52,7 @@
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<a href="indice.aspx"><img src="Content/images/logoweb.png" alt=""/></a>
+			<a href="~/indice.aspx" runat="server"><img src="Content/images/logoweb.png" alt=""/></a>
 		</div>
 		 <div class="log_reg">
          <br/>
@@ -75,7 +75,7 @@
 		<div class="menu">
 			<ul>
 				<li class="active"><a href="indice.aspx">Inicio</a></li>
-				<li><a href="products.html">Catálogo</a></li>
+				<li><a href="~/Catalogo.aspx" runat="server">Catálogo</a></li>
 				<li><a href="about.html">Sobre nosotros...</a></li>
 				<li><a href="contact.html">Contacta con nosotros...</a></li>
 				<div class="clear"></div>
