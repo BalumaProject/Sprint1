@@ -23,6 +23,7 @@
         <!-- start slider -->
 	<link href="../Content/css/slider.css" rel="stylesheet" type="text/css" media="all" />
     <link href="../Content/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../Content/css/Estilos.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="../Scripts/jquery.eislideshow.js"></script>
         <script type="text/javascript" src="../Scripts/easing.js"></script>
         <script type="text/javascript">

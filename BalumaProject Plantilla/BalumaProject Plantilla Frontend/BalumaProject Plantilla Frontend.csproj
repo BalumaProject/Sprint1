@@ -59,6 +59,7 @@
     <Content Include="Content\css\bootstrap-theme.min.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\Estilos.css" />
     <Content Include="Content\css\jquery.mmenu.all.css" />
     <Content Include="Content\css\productviewgallery.css" />
     <Content Include="Content\css\slider.css" />
