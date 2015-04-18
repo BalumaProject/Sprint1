@@ -2,6 +2,7 @@
 <%@ Register TagPrefix="uc" TagName="Footer" Src="~/_footer.ascx"  %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headAdmin" runat="server">
+   
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <script>

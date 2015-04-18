@@ -24,6 +24,7 @@
 	<link href="../Content/css/slider.css" rel="stylesheet" type="text/css" media="all" />
         <script type="text/javascript" src="../Scripts/jquery.eislideshow.js"></script>
         <script type="text/javascript" src="../Scripts/easing.js"></script>
+        <link href="../Content/css/Estilos.css" rel="Stylesheet" />
         <script type="text/javascript">
             $(function () {
                 $('#ei-slider').eislideshow({

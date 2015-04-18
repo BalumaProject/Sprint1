@@ -43,7 +43,7 @@
         })();
 		</script>
 
-    <div class="registration_left">
+    <div class="registration_left medio-tam">
         <div class="registration_form">
 		 <!-- Form -->
 			<form id="registration_form" action="contact.php" method="post">
@@ -90,7 +90,7 @@
     </div>
 
     <div class="baja-servicio">
-        <button class="btn">
+        <button class="btn baja-servicio">
             Dar de baja
         </button>
     </div>
