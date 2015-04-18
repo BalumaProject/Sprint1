@@ -22,7 +22,7 @@
 			
 				<div>
 					<label>
-						<asp:TextBox ID = "username" type="text" tabindex="3" required="" placeholder = "nombre de usuario" runat="server" />
+						<asp:TextBox ID = "usname" type="text" tabindex="3" required="" placeholder = "nombre de usuario" runat="server" />
 					</label>
 				</div>
 				<div>
@@ -31,7 +31,7 @@
 					</label>
 				</div>						
 				<div>
-					<asp:Button OnClick = "submit" type="submit" text="¡Entra!"  runat = "server" />
+					<asp:Button OnClick = "login" type="submit" text="¡Entra!"  runat = "server" />
 				</div>
 				<div class="forget">
 					<a href="#">¿No recuerdas tu contraseña?</a>
@@ -50,6 +50,11 @@
 		
 		 <div class="registration_form">
 		 <!-- Form -->
+				<div>
+					<label>
+						<asp:TextBox ID = "nickname" type="text" tabindex="0" placeholder="Nombre de usuario:" runat = "server"  />
+					</label>
+				</div>
 			
 				<div>
 					<label>

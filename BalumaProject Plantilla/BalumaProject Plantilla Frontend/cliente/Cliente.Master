@@ -56,10 +56,10 @@
   		<a href="../indice.aspx"><img src="../Content/images/logoweb.png" alt=""/></a>
 		</div>
 		 <div class="log_reg">
-			<a><img src="../Content/images/perfil.jpg" alt="" /></a>
+			<a href="../cliente/editar_cliente.aspx"><img src="../Content/images/perfil.jpg" alt="" /></a>
           <br/>
           <br/>
-            <a><font color="ffffff">Username</font></a>
+           <asp:Label ID="nombre_usu" text = "Username" runat = "server"></asp:Label>
           <br/>
 		</div>	
 					

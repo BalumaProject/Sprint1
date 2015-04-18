@@ -46,43 +46,76 @@
     <div class="registration_left">
         <div class="registration_form">
 		 <!-- Form -->
-			<form id="registration_form" action="contact.php" method="post">
+			<form runat="server">
+           <div>
+					<label>
+						<asp:TextBox ID = "nickname" type="text" tabindex="0" placeholder="Nombre de usuario:" runat = "server"  />
+					</label>
+				</div>
+			
 				<div>
 					<label>
-						<input placeholder="Nombre:" type="text" tabindex="1" required="" autofocus="">
+						<asp:TextBox ID = "nombre" type="text" tabindex="1" placeholder="Nombre:" runat = "server"  />
 					</label>
 				</div>
 				<div>
 					<label>
-						<input placeholder="Primer apellido:" type="text" tabindex="2" required="" autofocus="">
+						<asp:TextBox ID = "papellido" type="text" tabindex="2" placeholder="Primer apellido:" runat = "server" />
 					</label>
 				</div>
 
 				<div>
 					<label>
-						<input placeholder="Segundo apellido:" type="text" tabindex="3" required="" autofocus="">
+						<asp:TextBox ID = "sapellido" placeholder="Segundo apellido:" type="text" tabindex="3" runat="server" />
 					</label>
 				</div>
 
 				
 				<div>
 					<label>
-						<input placeholder="Email:" type="email" tabindex="4" required="">
+						<asp:TextBox ID = "email" placeholder="Email:" type="email" tabindex="4" runat="server" />
+					</label>
+				</div>
+
+                	
+				                	
+				<div>
+					<label>
+						<asp:TextBox ID = "local" placeholder="localidad:" type="text" tabindex="6" runat="server" />
+					</label>
+				</div>
+
+                <div>
+					<label>
+						<asp:TextBox ID = "cp" placeholder="C.P:" type="text" tabindex="7" runat="server" />
+					</label>
+				</div>
+                	
+				<div>
+					<label>
+						<asp:TextBox ID = "telf" placeholder="número de teléfono:" type="text" tabindex="8" runat="server" />
+					</label>
+				</div>
+
+                	
+				<div>
+					<label>
+						<asp:TextBox ID = "cuenta" placeholder="cuenta bancaria:" type="text" tabindex="9" runat="server" />
 					</label>
 				</div>
 
 				<div>
 					<label>
-						<input placeholder="contraseña" type="password" tabindex="5" required="">
+						<asp:TextBox ID = "pass" placeholder="contraseña" type="password" tabindex="10" runat="server" />
 					</label>
 				</div>						
 				<div>
 					<label>
-						<input placeholder="repite la contraseña" type="password" tabindex="5" required="">
+						<asp:TextBox ID="TextBox1" placeholder="repite la contraseña" type="password" tabindex="11" runat="server" />
 					</label>
 				</div>	
 				<div>
-					<input type="submit" value="Actualiza tus datos" id="register-submit">
+					<asp:Button OnClick = "editar"  text="Actualiza tus datos" id="register_submit" runat="server"/>
 				</div>
 			</form>
 			<!-- /Form -->
@@ -97,8 +130,8 @@
     
 
 
-<form runat="server">
+
    <uc:Footer id="footer"
         runat="server" />
-</form>
+
 </asp:Content>

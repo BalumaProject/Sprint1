@@ -8,7 +8,6 @@ using BalumaProjectGenNHibernate.CEN.BalumaProject;
 using BalumaProjectGenNHibernate.EN.BalumaProject;
 using BalumaProjectGenNHibernate.CAD.BalumaProject;
 using BalumaProjectGenNHibernate.Enumerated.BalumaProject;
-
 namespace BalumaProject_Plantilla_Frontend
 {
     public partial class WebForm1 : System.Web.UI.Page
@@ -19,24 +18,24 @@ namespace BalumaProject_Plantilla_Frontend
 
         }
 
-        protected void submit(object sender, EventArgs e)
+        protected void login(object sender, EventArgs e)
         {
             //necesario un leer por email o leer por nombre
 
             UsuarioCEN usu = new UsuarioCEN();
+            
             UsuarioEN usuEN = new UsuarioEN();
-            usuEN = usu.LeerPorNombreCliente(username.Text);
-
+         
+            usuEN = usu.LeerPorNombreCliente(usname.Text);
+             
             if (usuEN.Password == password.Text)
             {
                 ClienteEN cli = new ClienteEN();
                 cli = (ClienteEN)usuEN;
-                //Redirigir la página a cliente
+                Session["cliente"] = cli;
+                Response.Redirect("http://localhost:55473/cliente/cliente.aspx");
             }
-            else
-            {
-                //Mostrar mensaje de error
-            }
+           
 
             //si es válido, se carga la vista de cliente
 
@@ -56,7 +55,7 @@ namespace BalumaProject_Plantilla_Frontend
             String cuentaBancaria = cuenta.Text;
 
 
-            cliente.CrearCliente(nom, apellidos, password, nom, NIF, localidad, "", cuentaBancaria, numtelf);
+            cliente.CrearCliente(apellidos,password,nickname.Text,NIF,nom,localidad,cp.Text,cuentaBancaria,numtelf);
         }
 
     }
