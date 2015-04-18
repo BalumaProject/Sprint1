@@ -4,9 +4,6 @@
 		                   namespace="BalumaProjectGenNHibernate.EN.BalumaProject">
 			<class name="UsuarioEN" table="[Usuario]">
 						<id name="NIF" column="[NIF]"/>
-					<property name="Nombre" type="string"> 
-						<column name="[nombre]"  not-null="true"/>
-					</property>
 					<property name="Apellidos" type="string"> 
 						<column name="[apellidos]"  not-null="true"/>
 					</property>
@@ -16,7 +13,9 @@
 					<property name="Username" type="string"> 
 						<column name="[username]"  unique="true" not-null="true"/>
 					</property>
-			
+					<property name="Nombre" type="string"> 
+						<column name="[nombre]"  not-null="true"/>
+					</property>
 			
 			
 			
@@ -26,6 +25,7 @@
 							   <one-to-one name="Validar" class="BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN" property-ref="Usuario" />							
 					 
 						
+			
 			
 					
 					
@@ -37,7 +37,7 @@
 		  </class>
 		  
 		  <query name="UsuarioENReadAllHQL">from UsuarioEN</query>
-		  <query name="UsuarioENleerPorNombreClienteHQL"><![CDATA[FROM UsuarioEN us where us.username = :p_username]]></query>
-		  <query name="UsuarioENleerPorNombreAdministradorHQL"><![CDATA[SELECT * FROM UsuarioEN us where us.username = :p_username]]></query>
+		  <query name="UsuarioENleerPorNombreClienteHQL"><![CDATA[FROM UsuarioEN usu, ClienteEN cli where usu.NIF = cli.NIF and usu.Username = :p_username]]></query>
+		  <query name="UsuarioENleerPorNombreAdministradorHQL"><![CDATA[FROM UsuarioEN usu, AdministradorEN cli where usu.NIF = cli.NIF and usu.Username = :p_username]]></query>
 		</hibernate-mapping>
 	

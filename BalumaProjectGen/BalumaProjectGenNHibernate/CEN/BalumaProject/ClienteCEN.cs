@@ -32,15 +32,13 @@ public IClienteCAD get_IClienteCAD ()
         return this._IClienteCAD;
 }
 
-public string CrearCliente (string p_nombre, string p_apellidos, string p_password, string p_username, string p_NIF, string p_localidad, string p_codigoPostal, string p_numCuentaBancaria, string p_telefono)
+public string CrearCliente (string p_apellidos, string p_password, string p_username, string p_NIF, string p_nombre, string p_localidad, string p_codigoPostal, string p_numCuentaBancaria, string p_telefono)
 {
         ClienteEN clienteEN = null;
         string oid;
 
         //Initialized ClienteEN
         clienteEN = new ClienteEN ();
-        clienteEN.Nombre = p_nombre;
-
         clienteEN.Apellidos = p_apellidos;
 
         clienteEN.Password = p_password;
@@ -48,6 +46,8 @@ public string CrearCliente (string p_nombre, string p_apellidos, string p_passwo
         clienteEN.Username = p_username;
 
         clienteEN.NIF = p_NIF;
+
+        clienteEN.Nombre = p_nombre;
 
         clienteEN.Localidad = p_localidad;
 

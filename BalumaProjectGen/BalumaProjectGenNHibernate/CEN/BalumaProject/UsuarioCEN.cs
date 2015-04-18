@@ -32,15 +32,13 @@ public IUsuarioCAD get_IUsuarioCAD ()
         return this._IUsuarioCAD;
 }
 
-public string CrearUsuario (string p_nombre, string p_apellidos, string p_password, string p_username, string p_NIF)
+public string CrearUsuario (string p_apellidos, string p_password, string p_username, string p_NIF, string p_nombre)
 {
         UsuarioEN usuarioEN = null;
         string oid;
 
         //Initialized UsuarioEN
         usuarioEN = new UsuarioEN ();
-        usuarioEN.Nombre = p_nombre;
-
         usuarioEN.Apellidos = p_apellidos;
 
         usuarioEN.Password = p_password;
@@ -49,35 +47,37 @@ public string CrearUsuario (string p_nombre, string p_apellidos, string p_passwo
 
         usuarioEN.NIF = p_NIF;
 
+        usuarioEN.Nombre = p_nombre;
+
         //Call to UsuarioCAD
 
         oid = _IUsuarioCAD.CrearUsuario (usuarioEN);
         return oid;
 }
 
-public void ModificarUsuario (string p_Usuario_OID, string p_nombre, string p_apellidos, string p_password, string p_username)
+public void ModificarUsuario (string p_Usuario_OID, string p_apellidos, string p_password, string p_username, string p_nombre)
 {
         UsuarioEN usuarioEN = null;
 
         //Initialized UsuarioEN
         usuarioEN = new UsuarioEN ();
         usuarioEN.NIF = p_Usuario_OID;
-        usuarioEN.Nombre = p_nombre;
         usuarioEN.Apellidos = p_apellidos;
         usuarioEN.Password = p_password;
         usuarioEN.Username = p_username;
+        usuarioEN.Nombre = p_nombre;
         //Call to UsuarioCAD
 
         _IUsuarioCAD.ModificarUsuario (usuarioEN);
 }
 
-public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreCliente (string p_username)
+public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreCliente ()
 {
-        return _IUsuarioCAD.LeerPorNombreCliente (p_username);
+        return _IUsuarioCAD.LeerPorNombreCliente ();
 }
-public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreAdministrador (string p_username)
+public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreAdministrador ()
 {
-        return _IUsuarioCAD.LeerPorNombreAdministrador (p_username);
+        return _IUsuarioCAD.LeerPorNombreAdministrador ();
 }
 }
 }

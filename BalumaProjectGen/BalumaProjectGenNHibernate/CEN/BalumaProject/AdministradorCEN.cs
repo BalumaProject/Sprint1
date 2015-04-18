@@ -32,15 +32,13 @@ public IAdministradorCAD get_IAdministradorCAD ()
         return this._IAdministradorCAD;
 }
 
-public string CrearAdministrador (string p_nombre, string p_apellidos, string p_password, string p_username, string p_NIF, int p_producto, int p_pedido)
+public string CrearAdministrador (string p_apellidos, string p_password, string p_username, string p_NIF, string p_nombre, int p_producto, int p_pedido)
 {
         AdministradorEN administradorEN = null;
         string oid;
 
         //Initialized AdministradorEN
         administradorEN = new AdministradorEN ();
-        administradorEN.Nombre = p_nombre;
-
         administradorEN.Apellidos = p_apellidos;
 
         administradorEN.Password = p_password;
@@ -48,6 +46,8 @@ public string CrearAdministrador (string p_nombre, string p_apellidos, string p_
         administradorEN.Username = p_username;
 
         administradorEN.NIF = p_NIF;
+
+        administradorEN.Nombre = p_nombre;
 
 
         if (p_producto != -1) {

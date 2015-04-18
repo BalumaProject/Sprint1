@@ -9,12 +9,6 @@ public partial class UsuarioEN
  *
  */
 
-private string nombre;
-
-/**
- *
- */
-
 private string apellidos;
 
 /**
@@ -41,13 +35,14 @@ private BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar;
 
 private string nIF;
 
+/**
+ *
+ */
+
+private string nombre;
 
 
 
-
-public virtual string Nombre {
-        get { return nombre; } set { nombre = value;  }
-}
 
 
 public virtual string Apellidos {
@@ -75,6 +70,11 @@ public virtual string NIF {
 }
 
 
+public virtual string Nombre {
+        get { return nombre; } set { nombre = value;  }
+}
+
+
 
 
 
@@ -84,23 +84,21 @@ public UsuarioEN()
 
 
 
-public UsuarioEN(string nIF, string nombre, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar)
+public UsuarioEN(string nIF, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar, string nombre)
 {
-        this.init (nIF, nombre, apellidos, password, username, validar);
+        this.init (nIF, apellidos, password, username, validar, nombre);
 }
 
 
 public UsuarioEN(UsuarioEN usuario)
 {
-        this.init (usuario.NIF, usuario.Nombre, usuario.Apellidos, usuario.Password, usuario.Username, usuario.Validar);
+        this.init (usuario.NIF, usuario.Apellidos, usuario.Password, usuario.Username, usuario.Validar, usuario.Nombre);
 }
 
-private void init (string nIF, string nombre, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar)
+private void init (string nIF, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar, string nombre)
 {
         this.NIF = NIF;
 
-
-        this.Nombre = nombre;
 
         this.Apellidos = apellidos;
 
@@ -109,6 +107,8 @@ private void init (string nIF, string nombre, string apellidos, string password,
         this.Username = username;
 
         this.Validar = validar;
+
+        this.Nombre = nombre;
 }
 
 public override bool Equals (object obj)

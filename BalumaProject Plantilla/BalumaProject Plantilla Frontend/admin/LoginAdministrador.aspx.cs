@@ -24,7 +24,7 @@ namespace BalumaProject_Plantilla_Frontend.admin
             UsuarioCEN u = new UsuarioCEN();
             UsuarioEN us = new UsuarioEN();
 
-            us = u.LeerPorNombreAdministrador(username.Text);
+            us = u.LeerPorNombreAdministrador();
 
             if (us.Password == password.Text)
             {

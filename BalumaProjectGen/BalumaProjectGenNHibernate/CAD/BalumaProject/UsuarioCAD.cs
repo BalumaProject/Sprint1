@@ -84,9 +84,6 @@ public void ModificarUsuario (UsuarioEN usuario)
                 SessionInitializeTransaction ();
                 UsuarioEN usuarioEN = (UsuarioEN)session.Load (typeof(UsuarioEN), usuario.NIF);
 
-                usuarioEN.Nombre = usuario.Nombre;
-
-
                 usuarioEN.Apellidos = usuario.Apellidos;
 
 
@@ -94,6 +91,9 @@ public void ModificarUsuario (UsuarioEN usuario)
 
 
                 usuarioEN.Username = usuario.Username;
+
+
+                usuarioEN.Nombre = usuario.Nombre;
 
                 session.Update (usuarioEN);
                 SessionCommit ();
@@ -112,16 +112,15 @@ public void ModificarUsuario (UsuarioEN usuario)
                 SessionClose ();
         }
 }
-public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreCliente (string p_username)
+public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreCliente ()
 {
         BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN result;
         try
         {
                 SessionInitializeTransaction ();
-                //String sql = @"FROM UsuarioEN self where FROM UsuarioEN us where us.username = :p_username";
+                //String sql = @"FROM UsuarioEN self where FROM UsuarioEN usu, ClienteEN cli where usu.NIF = cli.NIF and usu.Username = :p_username";
                 //IQuery query = session.CreateQuery(sql);
                 IQuery query = (IQuery)session.GetNamedQuery ("UsuarioENleerPorNombreClienteHQL");
-                query.SetParameter ("p_username", p_username);
 
 
                 result = query.UniqueResult<BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN>();
@@ -143,16 +142,15 @@ public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreClient
 
         return result;
 }
-public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreAdministrador (string p_username)
+public BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreAdministrador ()
 {
         BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN result;
         try
         {
                 SessionInitializeTransaction ();
-                //String sql = @"FROM UsuarioEN self where SELECT * FROM UsuarioEN us where us.username = :p_username";
+                //String sql = @"FROM UsuarioEN self where FROM UsuarioEN usu, AdministradorEN cli where usu.NIF = cli.NIF and usu.Username = :p_username";
                 //IQuery query = session.CreateQuery(sql);
                 IQuery query = (IQuery)session.GetNamedQuery ("UsuarioENleerPorNombreAdministradorHQL");
-                query.SetParameter ("p_username", p_username);
 
 
                 result = query.UniqueResult<BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN>();

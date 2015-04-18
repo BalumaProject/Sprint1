@@ -14,10 +14,9 @@ void ModificarUsuario (UsuarioEN usuario);
 
 
 
+BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreCliente ();
 
-BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreCliente (string p_username);
 
-
-BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreAdministrador (string p_username);
+BalumaProjectGenNHibernate.EN.BalumaProject.UsuarioEN LeerPorNombreAdministrador ();
 }
 }

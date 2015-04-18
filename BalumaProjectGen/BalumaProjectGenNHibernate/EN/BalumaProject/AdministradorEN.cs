@@ -42,18 +42,18 @@ public AdministradorEN() : base ()
 
 
 
-public AdministradorEN(string nIF, BalumaProjectGenNHibernate.EN.BalumaProject.ProductoEN producto, BalumaProjectGenNHibernate.EN.BalumaProject.PedidoEN pedido, string nombre, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar)
+public AdministradorEN(string nIF, BalumaProjectGenNHibernate.EN.BalumaProject.ProductoEN producto, BalumaProjectGenNHibernate.EN.BalumaProject.PedidoEN pedido, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar, string nombre)
 {
-        this.init (nIF, producto, pedido, nombre, apellidos, password, username, validar);
+        this.init (nIF, producto, pedido, apellidos, password, username, validar, nombre);
 }
 
 
 public AdministradorEN(AdministradorEN administrador)
 {
-        this.init (administrador.NIF, administrador.Producto, administrador.Pedido, administrador.Nombre, administrador.Apellidos, administrador.Password, administrador.Username, administrador.Validar);
+        this.init (administrador.NIF, administrador.Producto, administrador.Pedido, administrador.Apellidos, administrador.Password, administrador.Username, administrador.Validar, administrador.Nombre);
 }
 
-private void init (string nIF, BalumaProjectGenNHibernate.EN.BalumaProject.ProductoEN producto, BalumaProjectGenNHibernate.EN.BalumaProject.PedidoEN pedido, string nombre, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar)
+private void init (string nIF, BalumaProjectGenNHibernate.EN.BalumaProject.ProductoEN producto, BalumaProjectGenNHibernate.EN.BalumaProject.PedidoEN pedido, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar, string nombre)
 {
         this.NIF = NIF;
 
@@ -62,8 +62,6 @@ private void init (string nIF, BalumaProjectGenNHibernate.EN.BalumaProject.Produ
 
         this.Pedido = pedido;
 
-        this.Nombre = nombre;
-
         this.Apellidos = apellidos;
 
         this.Password = password;
@@ -71,6 +69,8 @@ private void init (string nIF, BalumaProjectGenNHibernate.EN.BalumaProject.Produ
         this.Username = username;
 
         this.Validar = validar;
+
+        this.Nombre = nombre;
 }
 
 public override bool Equals (object obj)

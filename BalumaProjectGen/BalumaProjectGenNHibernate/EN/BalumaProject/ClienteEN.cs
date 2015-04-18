@@ -86,18 +86,18 @@ public ClienteEN() : base ()
 
 
 
-public ClienteEN(string nIF, string localidad, string codigoPostal, string numCuentaBancaria, string telefono, BalumaProjectGenNHibernate.EN.BalumaProject.CarritoEN carrito, BalumaProjectGenNHibernate.EN.BalumaProject.PedidoEN pedido, string nombre, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar)
+public ClienteEN(string nIF, string localidad, string codigoPostal, string numCuentaBancaria, string telefono, BalumaProjectGenNHibernate.EN.BalumaProject.CarritoEN carrito, BalumaProjectGenNHibernate.EN.BalumaProject.PedidoEN pedido, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar, string nombre)
 {
-        this.init (nIF, localidad, codigoPostal, numCuentaBancaria, telefono, carrito, pedido, nombre, apellidos, password, username, validar);
+        this.init (nIF, localidad, codigoPostal, numCuentaBancaria, telefono, carrito, pedido, apellidos, password, username, validar, nombre);
 }
 
 
 public ClienteEN(ClienteEN cliente)
 {
-        this.init (cliente.NIF, cliente.Localidad, cliente.CodigoPostal, cliente.NumCuentaBancaria, cliente.Telefono, cliente.Carrito, cliente.Pedido, cliente.Nombre, cliente.Apellidos, cliente.Password, cliente.Username, cliente.Validar);
+        this.init (cliente.NIF, cliente.Localidad, cliente.CodigoPostal, cliente.NumCuentaBancaria, cliente.Telefono, cliente.Carrito, cliente.Pedido, cliente.Apellidos, cliente.Password, cliente.Username, cliente.Validar, cliente.Nombre);
 }
 
-private void init (string nIF, string localidad, string codigoPostal, string numCuentaBancaria, string telefono, BalumaProjectGenNHibernate.EN.BalumaProject.CarritoEN carrito, BalumaProjectGenNHibernate.EN.BalumaProject.PedidoEN pedido, string nombre, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar)
+private void init (string nIF, string localidad, string codigoPostal, string numCuentaBancaria, string telefono, BalumaProjectGenNHibernate.EN.BalumaProject.CarritoEN carrito, BalumaProjectGenNHibernate.EN.BalumaProject.PedidoEN pedido, string apellidos, string password, string username, BalumaProjectGenNHibernate.EN.BalumaProject.ValidarEN validar, string nombre)
 {
         this.NIF = NIF;
 
@@ -114,8 +114,6 @@ private void init (string nIF, string localidad, string codigoPostal, string num
 
         this.Pedido = pedido;
 
-        this.Nombre = nombre;
-
         this.Apellidos = apellidos;
 
         this.Password = password;
@@ -123,6 +121,8 @@ private void init (string nIF, string localidad, string codigoPostal, string num
         this.Username = username;
 
         this.Validar = validar;
+
+        this.Nombre = nombre;
 }
 
 public override bool Equals (object obj)
