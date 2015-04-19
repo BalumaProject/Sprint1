@@ -43,7 +43,7 @@
         })();
 		</script>
 
-    <div class="registration_left">
+    <div class="registration_left medio_tam">
         <div class="registration_form">
 		 <!-- Form -->
 			<form runat="server">
