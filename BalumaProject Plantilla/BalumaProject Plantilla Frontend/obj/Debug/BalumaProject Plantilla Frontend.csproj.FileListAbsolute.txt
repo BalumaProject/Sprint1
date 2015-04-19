@@ -1,0 +1,20 @@
+c:\users\cyberbug\documents\visual studio 2010\Projects\BalumaProject Plantilla Frontend\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.dll
+c:\users\cyberbug\documents\visual studio 2010\Projects\BalumaProject Plantilla Frontend\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.pdb
+c:\users\cyberbug\documents\visual studio 2010\Projects\BalumaProject Plantilla Frontend\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.dll
+c:\users\cyberbug\documents\visual studio 2010\Projects\BalumaProject Plantilla Frontend\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.pdb
+C:\Users\Cyberbug\Documents\Visual Studio 2010\Projects\First-iteration\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.dll
+C:\Users\Cyberbug\Documents\Visual Studio 2010\Projects\First-iteration\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.pdb
+C:\Users\Cyberbug\Documents\Visual Studio 2010\Projects\First-iteration\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.dll
+C:\Users\Cyberbug\Documents\Visual Studio 2010\Projects\First-iteration\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.pdb
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProject Plantilla Frontend.pdb
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.pdb
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\hibernate.cfg.xml
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProjectGenNHibernate.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\NHibernate.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\Iesi.Collections.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\Antlr3.Runtime.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\log4net.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\bin\BalumaProjectGenNHibernate.pdb
+D:\Asignaturas 4º\Diseño de Sistemas Software\First-iteration-master\First-iteration-master\BalumaProject Plantilla\BalumaProject Plantilla Frontend\obj\Debug\BalumaProject Plantilla Frontend.csprojResolveAssemblyReference.cache
