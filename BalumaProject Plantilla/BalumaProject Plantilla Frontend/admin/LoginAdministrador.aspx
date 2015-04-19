@@ -21,16 +21,16 @@
 			<form id="login_admin" action="" method="post">
 				<div>
 					<label>
-						<asp:TextBox ID = "nombre" type="text" tabindex="1" placeholder="Nombre:" runat="server" />
+						<asp:TextBox ID = "username" type="text" tabindex="1" placeholder="Nombre de usuario:" runat="server" />
 					</label>
 				</div>
 				<div>
 					<label>
-						<asp:TextBox ID = "pass" placeholder="Contraseña:" type="password" tabindex="2" runat="server" />
+						<asp:TextBox ID = "password" placeholder="Contraseña:" type="password" tabindex="2" runat="server" />
 					</label>
 				</div>						
 				<div>
-					<input type="submit" value="¡Entra!" id="register-submit">
+					<asp:Button OnClick = "login" type="submit" text="¡Entra!" runat = "server"/>
 				</div>
 			</form>
 			<!-- /Form -->

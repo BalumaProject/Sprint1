@@ -14,18 +14,19 @@ namespace BalumaProject_Plantilla_Frontend.admin
 {
     public partial class editar_perfil : System.Web.UI.Page
     {
-        UsuarioCEN admin = new UsuarioCEN();
+
+        AdministradorCEN admin = new AdministradorCEN();
+        UsuarioCEN usuario = new UsuarioCEN();
+        
         protected void Page_Load(object sender, EventArgs e)
         {
         }
 
-        protected void edit_admin(object sender, EventArgs ev)
+        protected void editar_admin(object sender, EventArgs ev)
         {
-            String nom = nombre.Text;
-            String primer_apellido = prapellido.Text;
-            String segundo_apellido = sgapellido.Text;
-            String apellidos = primer_apellido + " " + segundo_apellido;
-            String password = pass.Text;
+            AdministradorEN ad = (AdministradorEN)Session["admin"];
+            String apellidos = prapellido.Text + sgapellido.Text;
+            admin.ModifcarAdministrador(ad.NIF,apellidos,pass.Text,nickname.Text,nombre.Text);
         }
     }
 }

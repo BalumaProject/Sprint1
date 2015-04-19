@@ -22,6 +22,15 @@ namespace BalumaProject_Plantilla_Frontend.admin {
         protected global::System.Web.UI.WebControls.TextBox nombre;
         
         /// <summary>
+        /// Control nickname.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox nickname;
+        
+        /// <summary>
         /// Control prapellido.
         /// </summary>
         /// <remarks>
@@ -38,15 +47,6 @@ namespace BalumaProject_Plantilla_Frontend.admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox sgapellido;
-        
-        /// <summary>
-        /// Control email.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email;
         
         /// <summary>
         /// Control pass.
@@ -67,13 +67,13 @@ namespace BalumaProject_Plantilla_Frontend.admin {
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
-        /// Control Button1.
+        /// Control edit.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button edit;
         
         /// <summary>
         /// Control footer.

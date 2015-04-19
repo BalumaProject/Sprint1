@@ -19,20 +19,18 @@ namespace BalumaProject_Plantilla_Frontend.admin
 
         }
 
-        protected void submit(object sender, EventArgs ev)
+        protected void login(object sender, EventArgs ev)
         {
             UsuarioCEN u = new UsuarioCEN();
             UsuarioEN us = new UsuarioEN();
 
-            us = u.LeerPorNombreAdministrador();
+            us = u.LeerPorNombreAdministrador(username.Text);
 
             if (us.Password == password.Text)
             {
                 AdministradorEN ad = new AdministradorEN();
                 ad = (AdministradorEN)us;
-            }
-            else
-            {
+                Session["admin"] = admin;
             }
         }
     }

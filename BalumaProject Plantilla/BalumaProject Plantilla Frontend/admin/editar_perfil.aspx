@@ -8,52 +8,49 @@
     <div class="registration_left">
         <div class="registration_form">
 		 <!-- Form -->
+         <form runat="server">
 				<div>
 					<label>
 						<asp:TextBox ID = "nombre" type="text" tabindex="1" placeholder="Nombre:" runat = "server"  />
 					</label>
 				</div>
+                <div>
+					<label>
+						<asp:TextBox ID = "nickname" type="text" tabindex="2" placeholder="Nombre de usuario:" runat = "server"  />
+					</label>
+				</div>
 				<div>
 					<label>
-						<asp:TextBox ID = "prapellido" type="text" tabindex="2" placeholder="Primer apellido:" runat = "server" />
+						<asp:TextBox ID = "prapellido" type="text" tabindex="3" placeholder="Primer apellido:" runat = "server" />
 					</label>
 				</div>
 
 				<div>
 					<label>
-						<asp:TextBox ID = "sgapellido" placeholder="Segundo apellido:" type="text" tabindex="3" runat="server" />
-					</label>
-				</div>
-
-				
-				<div>
-					<label>
-						<asp:TextBox ID = "email" placeholder="Email:" type="email" tabindex="4" runat="server" />
+						<asp:TextBox ID = "sgapellido" placeholder="Segundo apellido:" type="text" tabindex="4" runat="server" />
 					</label>
 				</div>
 
 				<div>
 					<label>
-						<asp:TextBox ID = "pass" placeholder="Contraseña:" type="password" tabindex="10" runat="server" />
+						<asp:TextBox ID = "pass" placeholder="Contraseña:" type="password" tabindex="5" runat="server" />
 					</label>
 				</div>						
 				<div>
 					<label>
-						<asp:TextBox ID="TextBox1" placeholder="Repite la contraseña:" type="password" tabindex="11" runat="server" />
+						<asp:TextBox ID="TextBox1" placeholder="Repite la contraseña:" type="password" tabindex="6" runat="server" />
 					</label>
 				</div>	
 				<div>
-					<asp:Button ID="Button1" OnClick = "submit" type="submit" text="Modificar"  runat = "server" />
+					<asp:Button ID="edit" OnClick = "editar_admin" text="Actualiza tus datos"  runat = "server" />
 				</div>
 			<!-- /Form -->
 		</div>
     </div>
     
-    
-    <form runat="server">
+    </form>
         <uc:Footer id="footer"
             runat="server" />
-    </form>
 </asp:Content>
 
 
