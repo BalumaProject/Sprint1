@@ -1,2 +1,0 @@
-C:\Users\Javier\Desktop\BalumaProjectGen\InitializeDB\bin\Debug\InitializeDB.exe.config
-D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\InitializeDB.exe.config
