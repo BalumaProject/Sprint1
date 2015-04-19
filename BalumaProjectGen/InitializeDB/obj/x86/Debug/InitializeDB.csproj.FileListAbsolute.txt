@@ -1,0 +1,39 @@
+C:\Users\Javier\Desktop\OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\obj\x86\Debug\InitializeDB.csprojResolveAssemblyReference.cache
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\InitializeDB.exe
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\InitializeDB.pdb
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\BalumaProjectGenNHibernate.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\log4net.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\NHibernate.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\nunit.core.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\nunit.framework.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\bin\Debug\BalumaProjectGenNHibernate.pdb
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+D:\Asignaturas 4º\Diseño de Sistemas Software\Sprint1-OOH4RIA\BalumaProjectGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\InitializeDB.exe.config
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\obj\x86\Debug\InitializeDB.exe
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\obj\x86\Debug\InitializeDB.pdb
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\hibernate.cfg.xml
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\InitializeDB.exe
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\InitializeDB.pdb
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\Antlr3.Runtime.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\BalumaProjectGenNHibernate.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\Castle.DynamicProxy2.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\Iesi.Collections.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\LinFu.DynamicProxy.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\log4net.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\NHibernate.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\nunit.core.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\nunit.framework.dll
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\bin\Debug\BalumaProjectGenNHibernate.pdb
+D:\Asignaturas 4º\Diseño de Sistemas Software\Final Sprint1\BalumaProjectGen\InitializeDB\obj\x86\Debug\InitializeDB.csprojResolveAssemblyReference.cache
