@@ -1,0 +1,15 @@
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\BalumaProjectGenNHibernate.dll.config
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\BalumaProjectGenNHibernate.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\BalumaProjectGenNHibernate.pdb
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\obj\Debug\BalumaProjectGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\obj\Debug\BalumaProjectGenNHibernate.dll
+C:\Users\Javier\Documents\GitHub\Sprint1\BalumaProjectGen\BalumaProjectGenNHibernate\obj\Debug\BalumaProjectGenNHibernate.pdb
